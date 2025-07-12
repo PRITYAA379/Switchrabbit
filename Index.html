@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Simulation Swipe Home</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="swipe-strip" id="swipeStrip"></div>
+  <div class="strip-message">
+    <div class="scrolling-text">
+      ⚡ SWITCH RABBIT ISN’T A BRAND — IT’S A GLITCH IN THE SYSTEM. WE DON’T MARKET. WE REWIRE MINDS. EVERY SWIPE IS A SIGNAL. EVERY CLICK IS A SHIFT. ⚡ SWITCH RABBIT ISN’T A BRAND — IT’S A GLITCH IN THE SYSTEM...
+    </div>
+  </div>
+
+  <div class="sidebar">
+    <!-- Flicker lines -->
+    <div class="flicker-line"></div><div class="flicker-line"></div>
+    <div class="flicker-line"></div><div class="flicker-line"></div>
+    <div class="flicker-line"></div><div class="flicker-line"></div>
+    <div class="flicker-line"></div><div class="flicker-line"></div>
+    <div class="flicker-line"></div><div class="flicker-line"></div>
+    <div class="flicker-line"></div><div class="flicker-line"></div>
+    <div class="flicker-line"></div><div class="flicker-line"></div>
+    <div class="flicker-line"></div><div class="flicker-line"></div>
+    
+    <!-- Sidebar icons -->
+    <a href="#" title="Home"><i class="fas fa-home"></i></a>
+    <a href="#" title="Services"><i class="fas fa-bolt"></i></a>
+    <a href="#" title="About"><i class="fas fa-user"></i></a>
+    <a href="#" title="Contact"><i class="fas fa-envelope"></i></a>
+  </div>
+
+  <div class="container">
+    <div class="panel intro">
+      <div>
+        <div class="typewriter">Swipe Right to Enter Simulation</div>
+        <div class="arrow-line">
+          <div class="arrow-grow"></div>
+          <div class="arrow-head">➤</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="panel white-section">
+      <div class="orange-box" onclick="showWhy()">Why We Exist</div>
+    </div>
+
+    <div class="panel why-section" id="whyPanel">
+      <h1>Thank You for Your Interest</h1>
+      <p class="p-orange">🥕 We are bold like a carrot — fast, visible, and grounded.</p>
+      <p class="p-red">🔥 We are fueled by passion. Red like fire.</p>
+      <p class="p-black">🐢 Slow is smooth, smooth is fast.</p>
+      <p class="p-green">🌿 Green is life. We build systems that grow.</p>
+    </div>
+
+    <div class="panel extras-section">
+      <div class="extra-box" style="background:#001f3f">🔵 Deep Dive</div>
+      <div class="extra-box" style="background:#FF851B">🟠 Rapid Fire</div>
+      <div class="extra-box" style="background:#2ECC40">🟢 Growth Hack</div>
+      <div class="extra-box" style="background:#FF4136">🔴 Red Alert</div>
+      <div class="extra-box" style="background:#B10DC9">🟣 The Hidden</div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
